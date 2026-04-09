@@ -20,6 +20,8 @@ class Solution:
                 counter += int(len(l[:c]))
         return counter
 
+# Die Gelehrten (Claude und Gemini) schtreiten sich ob mein Algorytmus O(log n) oder O(n) ist...
+
 obj = Solution()
 print("---")
 print("TEST 1: nums = [1,3,5,6], target = 0")
